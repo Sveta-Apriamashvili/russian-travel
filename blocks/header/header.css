@@ -1,7 +1,7 @@
 
 .header {
     display: flex;
-    padding: 28px 40px 0 40px;
+    padding: 28px 40px 56px 40px;
     min-width: 1184px;
     min-height: 52px;
     justify-content: space-between;
