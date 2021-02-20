@@ -1,0 +1,10 @@
+.place {
+display: flex;
+margin-bottom: 80px;
+flex-wrap: wrap;
+width: 984px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
