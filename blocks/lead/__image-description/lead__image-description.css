@@ -5,3 +5,17 @@
     text-transform: uppercase;
     margin: 8px 0 0;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__image-description {
+margin-left: 24px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image-description {
+margin-left: 16px;
+
+    }
+}
