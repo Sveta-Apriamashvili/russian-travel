@@ -1,13 +1,14 @@
 .place__website {
-  margin-left: 40px;
   align-self: flex-end;
   padding-bottom: 48px;
+  width: calc(50% - 20px);
 }
 
 @media screen and (max-width: 320px) {
   .place__website {
     margin-left: 0;
     padding-bottom: 32px;
-    margin-left: 16px;
+    width: calc(100% - 16px);
+
   }
 }

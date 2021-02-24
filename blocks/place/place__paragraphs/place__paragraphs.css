@@ -1,11 +1,7 @@
-.place__paragraphs {
-    display: flex;
-    flex-direction: column;
-    max-width: 484px;
-   
-}
 
-@media screen and (max-width: 1024px) {
+
+
+/*@media screen and (max-width: 1024px) {
     .place__paragraphs {
         max-width: 456px;
     }
@@ -23,3 +19,27 @@
       max-width: 288px;
         }
     }
+*/
+
+
+
+.place__paragraphs {
+    
+    margin-top: 0;
+    width: calc(50% - 20px);
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .place__paragraphs {
+      font-size: 16px;
+      line-height: 163%;
+    }
+}  
+
+  @media screen and (max-width: 320px) {
+    .place__paragraphs {
+      width: calc(100% - 32px);
+      margin-left: 16px;
+    }
+}

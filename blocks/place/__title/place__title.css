@@ -1,11 +1,11 @@
 .place__title {
-    width: 460px;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     margin: 0;
     padding-bottom: 48px;
     align-self: flex-end;
+    width: calc(50% - 20px);
 }
 
 @media screen and (max-width: 1024px) {
@@ -27,6 +27,7 @@
         font-size: 32px;
         line-height: 35px;
         padding-bottom: 32px;
-        margin-left: 16px;
+        width: calc(100% - 16px);
+        
     }
 }

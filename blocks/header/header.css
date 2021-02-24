@@ -2,25 +2,25 @@
      display: flex;
      justify-content: space-between;
      align-items: flex-end;
-     max-width: 1184px;
+     width: calc(100% - 96px);
      margin: 28px auto 0 auto;
  }
 
- @media screen and (max-width: 1024px) {
+ /*@media screen and (max-width: 1024px) {
      .header {
          max-width: 928px;
      }
- }
+ }*/
 
  @media screen and (max-width: 768px) {
      .header {
-         max-width: 720px;
+         width: calc(100% - 48px);
      }
  }
 
  @media screen and (max-width: 320px) {
      .header {
-         max-width: 288px;
+         width: calc(100% - 32px);
          margin-top: 16px;
      }
  }
