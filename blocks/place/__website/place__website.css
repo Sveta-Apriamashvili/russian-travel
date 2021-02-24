@@ -4,11 +4,10 @@
   width: calc(50% - 20px);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .place__website {
     margin-left: 0;
     padding-bottom: 32px;
     width: calc(100% - 16px);
-
   }
 }
