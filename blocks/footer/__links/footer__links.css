@@ -3,10 +3,14 @@
   list-style: none;
   justify-content: space-around;
   padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 620px) {
   .footer__links {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,270px);
+    justify-content: start;
+    gap: 32px;
   }
 }
