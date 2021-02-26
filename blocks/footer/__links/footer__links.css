@@ -6,10 +6,10 @@
   margin: 0;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 650px) {
   .footer__links {
     display: grid;
-    grid-template-columns: repeat(auto-fill,270px);
+    grid-template-columns: repeat(auto-fill, 300px);
     justify-content: start;
     gap: 32px;
   }
