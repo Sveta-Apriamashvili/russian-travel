@@ -1,15 +1,15 @@
-# Путешествие по России
+# Russian travel
 
-*Проект о путешествии по России.*
+*A project about travelling around Russia.*
 
-Cайт с использованием технологий HTML, CSS:
-* принципы БЭМ и разделение интерфейса на компоненты;
-* адаптивность;
-* семантика и валидность html разметки;
-* использование технологии выравнивания и построения сетки: Grid и Flex.
+Website using HTML, CSS technologies:
+* BEM principles and separation of the interface into components;
+* Adaptivity;
+* Semantics and validity of html markup;
+* Grid/Flex.
  
 
 
 
- [Ссылка на проект](https://sveta-apriamashvili.github.io/russian-travel/)
+ [Click here to visit website](https://sveta-apriamashvili.github.io/russian-travel/)
 
